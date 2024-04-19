@@ -1,0 +1,278 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+   <link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src='../static/js/jQuery.min.js'></script>
+    <style>
+        .login_btn:hover{
+            cursor:pointer;
+        } -->
+    <!-- /* </style>
+</head>
+<body>
+
+    <div class="login_background"></div>
+    <div class="login_logo"></div>
+    <div class="login-wrapper" >
+        <div class="login_header">欢迎登录</div>
+        <div class="form-wrapper" >
+            <form action="/check/" method="POST">
+                <input type="text" name="username" placeholder="用户名" class="login_input">
+                <input type="password" name="password" placeholder="密码" class="login_input">
+                <button class="login_btn" href="HENG.html" id="login" style="width: 22vw;font-size: 16px;">登录</button>
+            </form>
+            <a class="login_visitor_btn" href="index.html" onclick="jumpIndex(this)" >访客一键登录</a>
+            <div class="login_msg">投资有风险，入市需谨慎！</div>
+        </div>
+
+    </div>
+    <script>
+        {% if check_error %}
+            alert("用户名或者密码错误")
+        {% endif %}
+
+    function jumpIndex(obj){
+        if(obj.getAttribute("class")=="login_visitor_btn"){
+            window.localStorage.setItem("login_type","visitor");
+        }
+        else if(obj.getAttribute("class")=="login_btn"){
+            window.localStorage.setItem("login_type","administrator");
+        };
+        window.location.href = "/index";
+    }
+    </script>
+</body>
+</html> */ -->
+
+<!DOCTYPE html>
+<!-- saved from url=(0027)https://eclab.suibe.edu.cn/ -->
+<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"><title>
+	上海对外经贸大学国际经贸实验实践教学中心-用户登录
+</title><link rel="icon" href="https://eclab.suibe.edu.cn/img/favicon.ico"><link type="text/css" rel="stylesheet" href="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/semantic.css"><link type="text/css" rel="stylesheet" href="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/ionicons.min.css"><link type="text/css" rel="stylesheet" href="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/main-fore.css"></head>
+
+<body>
+
+    <div style="height:100%">
+        <!-- Page Header -->
+        <div style="position: absolute; z-index: -1; overflow: hidden; background: url(&quot;./img/login_bg/login_bg4.jpg&quot;) 50% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); top: 0px; left: 0px; width: 1423px; height: 688.5px; margin: 0px; border-width: 0px; border-style: none; border-color: rgba(0, 0, 0, 0.87);"><div style="position: absolute; z-index: -1; overflow: hidden; background: url(&quot;./img/login_bg/login_bg3.jpg&quot;) 50% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0); top: 0px; left: 0px; width: 1423px; height: 688.5px; margin: 0px; border: none; opacity: 0.679673;"></div></div><div class="bgswitcher login page header" style="height: 90%; background: none;">
+
+            <div class="ui login content container">
+                <div class="ui grid">
+                    <div class="two wide computer only column"></div>
+                    <div class="seven wide computer  sixteen wide middle aligned mobile and tablet column">
+                        <a href="https://eclab.suibe.edu.cn/default.aspx">
+                            <img class="ui image" src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/logo.png">
+                        </a>
+                    </div>
+                    <div class="five wide computer ten wide middle aligned tablet sixteen wide mobile column">
+                        <div class="ui login padded segment">
+                            <form method="post" action="https://eclab.suibe.edu.cn/" onsubmit="javascript:return WebForm_OnSubmit();" id="formComputer" class="ui login form" target="_parent">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU3NjkxOTIzOA8WAh4ER1VJRAUkOWQ1ZGVjZTAtMzlhOS00MzRkLWI2NTktMjIzMDEzMzI0ZDRlFgICAw8WAh4GdGFyZ2V0BQdfcGFyZW50FgICAQ8PFgIeBFRleHQFJDlkNWRlY2UwLTM5YTktNDM0ZC1iNjU5LTIyMzAxMzMyNGQ0ZWRkZJZYFLcPtbex5fuB72JHCNc5Q9809WJIgNfwCo4tBwIl">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['formComputer'];
+if (!theForm) {
+    theForm = document.formComputer;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/WebResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgKBofyIBwKl1bK4CQLKw6LdBQKu1rmVBgKY2YWXBgKC3IeGDK4bSAGpR6Tc+P4b5ig7/yhNQqq05kaPUMDCbD3NgtJG">
+</div>
+                                <span id="lblGUID" style="display: none">9d5dece0-39a9-434d-b659-223013324d4e</span>
+                                <div class="ui center aligned large header">登 录</div>
+                                <div class="field">
+                                    <div class="ui fluid left icon input">
+                                        <i class="icon user"></i>
+                                        <input name="txtUsername" type="text" maxlength="20" id="txtUsername" placeholder="用户名" style="width:95%;">
+                                        <span id="RequiredFieldValidator1" style="color:Red;visibility:hidden;">*</span>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="ui fluid left icon input">
+                                        <i class="icon key"></i>
+                                        <input name="txtPass" type="password" maxlength="20" id="txtPass" placeholder="密码" style="width:95%;">
+                                        <span id="RequiredFieldValidator2" style="color:Red;visibility:hidden;">*</span>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="ui left icon selection dropdown" style="width: 99%" tabindex="0">
+                                        <input type="hidden" name="role">
+                                        <i class="dropdown icon" tabindex="0"><div class="menu" tabindex="-1"></div></i>
+                                        <div class="menu" tabindex="-1">
+                                            <div class="item" data-value="3">初学者</div>
+                                            <div class="item" data-value="2">资深玩家</div>
+                                            <div class="item" data-value="1">普通股民</div>
+                                        </div>
+                                        <i class="icon user secret grey"></i>
+                                        <div class="default text">学生</div>
+                                        <input type="hidden" name="hfldUserType" id="hfldUserType" value="3">
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <div class="ui fluid left icon action input">
+                                        <i class="tags icon"></i>
+                                        <input name="txtCheckCode" type="text" maxlength="4" id="txtCheckCode" placeholder="验证码">
+                                        <a id="A2" href="https://eclab.suibe.edu.cn/" onclick="ChangeCode();return false;">
+                                            <img id="ImageCheck" title="看不清，换一个" class="ui image" src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/ValidateCode.aspx" align="absmiddle" style="border-width:0px;height:38px;"></a>
+                                        <span id="RequiredFieldValidator3" style="color:Red;visibility:hidden;">*</span>
+                                    </div>
+                                </div>
+                                <input type="submit" name="btnLogin" value="登 录" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnLogin&quot;, &quot;&quot;, true, &quot;1&quot;, &quot;&quot;, false, false))" id="btnLogin" class="ui large blue button fluid">
+                                <div id="ValidationSummary1" style="display:none;">
+
+</div>
+                            
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary1"));
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator2"), document.getElementById("RequiredFieldValidator3"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "txtUsername";
+RequiredFieldValidator1.errormessage = "用户名不能为空";
+RequiredFieldValidator1.validationGroup = "1";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "txtPass";
+RequiredFieldValidator2.errormessage = "密码不能为空";
+RequiredFieldValidator2.validationGroup = "1";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RequiredFieldValidator3 = document.all ? document.all["RequiredFieldValidator3"] : document.getElementById("RequiredFieldValidator3");
+RequiredFieldValidator3.controltovalidate = "txtCheckCode";
+RequiredFieldValidator3.errormessage = "验证码不能为空";
+RequiredFieldValidator3.validationGroup = "1";
+RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator3.initialvalue = "";
+var ValidationSummary1 = document.all ? document.all["ValidationSummary1"] : document.getElementById("ValidationSummary1");
+ValidationSummary1.showmessagebox = "True";
+ValidationSummary1.showsummary = "False";
+ValidationSummary1.validationGroup = "1";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+                        </div>
+                    </div>
+                    <div class="two wide middle aligned computer only column"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Bottom-->
+        <div class="page bottom">
+            
+<div class="ui grid container">
+    
+    <div class="column" style="width:100%;text-align:center;">
+        <span class="copy-right">COPYRIGHT ©<script>document.write(new Date().getFullYear()); </script>2024
+            &nbsp;<a href="http://eclab.suibe.edu.cn/">上海对外经贸大学国际经贸学院实验实践教学中心</a><br>
+            上海市松江区文翔路1900号  &nbsp;&nbsp;&nbsp;&nbsp; 邮编：201600<br>
+           
+        </span>
+    </div>
+
+</div>
+
+        </div>
+    </div>
+
+    <!--jQuery-->
+    <script type="text/javascript" src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/jquery-3.4.1.min.js.下载"></script>
+
+    <!--Semantic UI-->
+    <script type="text/javascript" src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/semantic.min.js.下载"></script>
+
+    <!--jQuery BgSwitcher-->
+    <script type="text/javascript" src="./上海对外经贸大学国际经贸实验实践教学中心-用户登录_files/jquery.bgswitcher.js.下载"></script>
+
+    <!-- bgSwitcher -->
+    <script type="text/javascript">
+        $(function () {
+            $(".bgswitcher").bgswitcher({
+                images: [
+                    "./img/login_bg/login_bg1.jpg",
+                    "./img/login_bg/login_bg2.jpg",
+                    "./img/login_bg/login_bg3.jpg",
+                    "./img/login_bg/login_bg4.jpg",
+                ],
+            });
+            $(".dropdown").dropdown();
+            $(".dropdown").change(function () {
+                var usertype = $(".text");
+
+                console.log(usertype[0].innerText);
+                $("#hfldUserType").attr("value", $(".text")[0].attr("data-value"));
+
+                //$("div.item").each(function (index) {
+                //    console.log(index + ":" + $(this).innerText);
+                //})
+            });
+        });
+
+        function ChangeCode() {
+            var date = new Date();
+            $("#ImageCheck")[0].setAttribute("src", "ValidateCode.aspx?GUID=" + $("#lblGUID")[0].innerText + "&flag=" + date.getMilliseconds());
+            return false;
+        }
+    </script>
+
+
+</body></html>

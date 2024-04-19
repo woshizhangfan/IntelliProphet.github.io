@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面</title>
+   <link href="../static/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src='../static/js/jQuery.min.js'></script>
+    <style>
+        .login_btn:hover{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login_background"></div>
+    <div class="login_logo"></div>
+    <div class="login-wrapper" >
+        <div class="login_header"> </div>
+        <br>
+        <div class="login_header"> </div>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+        <div class="login_header"> </div>
+        <div class="login_header"> </div>
+        <div class="login_header"> </div>
+        <div class="login_header">生成完毕</div>
+    </div>
+    <script>
+        {% if check_error %}
+            alert("用户名或者密码错误")
+        {% endif %}
+
+    function jumpIndex(obj){
+        if(obj.getAttribute("class")=="login_visitor_btn"){
+            window.localStorage.setItem("login_type","visitor");
+        }
+        else if(obj.getAttribute("class")=="login_btn"){
+            window.localStorage.setItem("login_type","administrator");
+        };
+        window.location.href = "/index";
+    }
+    </script>
+</body>
+</html>
